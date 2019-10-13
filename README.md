@@ -7,6 +7,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-browsh.svg)](https://github.com/icaoberg/singularity-browsh/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
+![Logo](https://www.brow.sh/assets/images/browsh-header.jpg)
+
 ## Create image locally
 To create the Singularity container, run the command
 
