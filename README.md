@@ -40,9 +40,7 @@ singularity pull --arch amd64 library://icaoberg/default/browsh:v1.6.4
 
 ## Disclaimer
 
-I am nothing but a humble programmer creating the container for this wonderful app.
-
-If you want to help, then please [donate](https://www.brow.sh/donate/) to the original developer.
+I am nothing but a humble programmer creating the container for this wonderful app. If you want to help, then please [donate](https://www.brow.sh/donate/) to the original developer.
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
