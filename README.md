@@ -36,6 +36,7 @@ If you have the client installed and cannot build the image locally nor remotely
 
 ```
 singularity pull --arch amd64 library://icaoberg/default/browsh:v1.6.4
+```
 
 ## Disclaimer
 
