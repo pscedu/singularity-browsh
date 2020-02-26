@@ -1,6 +1,6 @@
 # singularity-browsh
 [![Hosted](https://img.shields.io/badge/hosted-sylabs.io-red.svg)](https://cloud.sylabs.io/library/icaoberg/default/browsh)
-![Release](https://img.shields.io/badge/release-prealpha-red.svg)
+![Release](https://img.shields.io/badge/release-v1.6.4-green.svg)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-browsh.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-browsh)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-browsh.svg)](https://github.com/icaoberg/singularity-browsh/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-browsh.svg)](https://github.com/icaoberg/singularity-browsh/network)
