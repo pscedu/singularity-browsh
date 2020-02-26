@@ -9,17 +9,33 @@
 
 ![Logo](https://www.brow.sh/assets/images/browsh-header.jpg)
 
-## Create image locally
-To create the Singularity container, run the command
+## Pre-requisites
+
+* [Singularity v3.5.+](https://sylabs.io/docs/).
+
+## Building the image using the recipe
+
+### To build the image locally
+Run the script `build.sh` to build image locally.
 
 ```
 bash ./build.sh
 ```
 
-## Example
+### To build the image remotely remotely
+Run the script `rbuild.sh` to build image remotely.
+
 ```
-➜  singularity run --app browsh singularity-browsh.simg
+bash ./rbuild.sh
 ```
+
+You will need to edit the script above to match your account on [SyLabs.io](https://sylabs.io/).
+
+### Pulling from the repository
+If you have the client installed and cannot build the image locally nor remotely, simply run
+
+```
+singularity pull --arch amd64 library://icaoberg/default/browsh:v1.6.4
 
 ## Disclaimer
 
@@ -30,4 +46,4 @@ If you want to help, then please [donate](https://www.brow.sh/donate/) to the or
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
-Copyleft © 2019 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+Copyleft © 2019-2020 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
