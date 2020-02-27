@@ -40,6 +40,8 @@ singularity pull --arch amd64 library://icaoberg/default/browsh:v1.6.4
 
 ## Disclaimer
 
+[![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
+
 I am nothing but a humble programmer creating the container for this wonderful app. If you want to help, then please [donate](https://www.brow.sh/donate/) to the original developer.
 
 ---
