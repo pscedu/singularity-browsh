@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: debian:buster
+From: alpine:latest
 
 %labels
     AUTHOR icaoberg
@@ -8,26 +8,21 @@ From: debian:buster
     VERSION 1.6.4
 
 %post
-    apt-get update && apt-get install -y --no-install-recommends apt-utils
-    apt-get update --fix-missing
-    apt-get install -y wget unzip
-    wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.deb
-    apt-get install -y ./browsh_1.6.4_linux_amd64.deb
-    rm ./browsh_1.6.4_linux_amd64.deb
-    apt-get install -y lynx
-    apt-get remove -y wget unzip
+    apk update
+    apk add dpkg wget firefox
+    wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_386
+    mv browsh_1.6.4_linux_386 /usr/local/bin/browsh && chmod +x /usr/local/bin/browsh
 
 ####################################################################################
 %apphelp browsh
-    browsh --help    
+    browsh --help
 
 %apprun browsh
     browsh "$@"
 
 ####################################################################################
 %apphelp lynx
-    lynx --help    
+    lynx --help
 
 %apprun lynx
     lynx "$@"
-

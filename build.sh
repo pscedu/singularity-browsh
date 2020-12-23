@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=singularity-browsh.simg
+IMAGE=singularity-browsh.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
