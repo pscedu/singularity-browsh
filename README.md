@@ -12,7 +12,7 @@ Singularity recipe for [browsh](https://www.brow.sh).
 Copy the
 
 * `SIF` file
-* and the other scripts
+* and the `browsh` script
 
 to `/opt/packages/browsh/1.6.4`.
 
